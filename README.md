@@ -1,2 +1,6 @@
 # Javasript-learning-
-Core Concepts to kick start in the website using the Js Frameworks
+#  Basics 
+- Variable
+- Loops and Conditionas
+- Block Scope VS Function Scope 
+ 
