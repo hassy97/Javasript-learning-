@@ -1,4 +1,5 @@
-# Javasript-learning-
+# Javasript learning to kick start to any framework 
+
 #  Basics 
 - Variable
 - Loops and Conditionas
