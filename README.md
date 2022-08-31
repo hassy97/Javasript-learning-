@@ -13,4 +13,4 @@
 - Function Property Prototypes
 - How Compilation works
 - classes
-- __proto__
+- __ proto __
