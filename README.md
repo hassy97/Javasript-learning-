@@ -10,3 +10,7 @@
 - Fucntions(expression, declaration, arrow ,callback)
 - Arrow Functions
 - Arrays Methods (foreach,map,find,filter,reduce,every,some ,find,sort)
+- Function Property Prototypes
+- How Compilation works
+- classes
+- __proto__
