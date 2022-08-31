@@ -11,7 +11,8 @@ const userMethods = {
 
 function create_user(firstname, lastname, age,country,email,address){
 
-    const user = {};
+    const user = Object.create.apply(userMethods);  // create a empty object {} and also creting a __proto__ channing (ab hum usermethods object  se jake call kr skte han wo chezain jo is 'user'object main nahi han )
+
     user.firstname = firstname;
     user.lastname = lastname;
     user.age = age;
@@ -21,7 +22,7 @@ function create_user(firstname, lastname, age,country,email,address){
     user.about = userMethods.about;
     user.Is18  = userMethods.Is18;
 
-    // 9:26 on video carry on 
+    // 
 
     // method for that function 
     // user.about = function (){
@@ -43,7 +44,4 @@ function create_user(firstname, lastname, age,country,email,address){
 
 // console.log(osama)
 
-
-
-// user methods 
 
