@@ -14,3 +14,6 @@
 - How Compilation works
 - classes
 - __ proto __
+- callback hello
+- pyramid of doom 
+- asynchorous programming (setTimeout, setTimeInterval)
