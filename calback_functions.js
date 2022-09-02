@@ -1,14 +1,14 @@
-function printDetail(){
-    console.log("My name is Hassan")
-}
+// function printDetail(){
+//     console.log("My name is Hassan")
+// }
 
-function foo(a){
-    console.log("inside the foo function")
+// function foo(a){
+//     console.log("inside the foo function")
 
-    a();
-}
+//     a();
+// }
 
-foo(printDetail);
+// foo(printDetail);
 
 
 
@@ -27,21 +27,29 @@ foo(printDetail);
 //  B(A); // expected log: 'function A'
 
 
+// // function returing a fuction   
+
+// const myapp = ()=> {
+
+// function hello(){
+//     console.log("hello ")
+// }
+
+// return hello
+// }
+
+// const answr = myapp
+
+// console.log(answr)
 
 
-
-
-// function returing a fuction
-
-const myapp = ()=> {
-
-function hello(){
-    console.log("hello ")
+function getTwonumberadd(number1, number2,callback){
+    console.log(number1,number2);
+    callback(number1,number2);
 }
 
-return hello
+function addTwoNumbers(number1, number2){
+    console.log( number1 + number2)
 }
 
-const answr = myapp
-
-console.log(answr)
+getTwonumberadd("4","5",addTwoNumbers); 
