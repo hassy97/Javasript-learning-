@@ -17,3 +17,4 @@
 - callback hello
 - pyramid of doom 
 - asynchorous programming (setTimeout, setTimeInterval)
+- promises
