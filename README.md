@@ -8,6 +8,7 @@
 - Object Desctructing
 - Strings(template, ..etc)
 - Fucntions(expression, declaration, arrow ,callback)
+#  Intermediate  
 - Arrow Functions
 - Arrays Methods (foreach,map,find,filter,reduce,every,some ,find,sort)
 - Function Property Prototypes
@@ -15,6 +16,8 @@
 - classes
 - __ proto __
 - callback hello
+
+#  Advanced  
 - pyramid of doom 
 - asynchorous programming (setTimeout, setTimeInterval)
 - promises
