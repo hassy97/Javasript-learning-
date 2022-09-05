@@ -21,4 +21,4 @@
 - pyramid of doom 
 - asynchorous programming (setTimeout, setTimeInterval)
 - promises
-- promise chainig
+- promise chaining
