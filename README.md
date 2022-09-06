@@ -22,3 +22,8 @@
 - asynchorous programming (setTimeout, setTimeInterval)
 - promises
 - promise chaining
+
+#  AJAX 
+- xmlhttprequest
+- onload
+- sendRequest
