@@ -25,5 +25,5 @@
 
 #  AJAX 
 - xmlhttprequest
-- onload
-- sendRequest
+- fetch api
+- axios 
