@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+.main-page {
+    width: 100vw;
+    height: 87vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.image {
+    height: 100%;
+    background: url('img/cover-img.png') center center/cover;
+    flex: 0 1 53vw;
+    position: relative;
+}
+
+.text-content
+ {
+    flex: 0 0 47vw;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    padding: 2rem;
+}
+
+.big-bird {
+    width: 16rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    fill: #fff;
+}
+
+.small-bird {
+    width: 3.5rem;
+    fill: #1da1f2;
+}
+
+h1, h3 {
+    color: #0f1419;
+    font-weight: 900;
+}
+
+h1 {
+    font-size: 5.5vw;
+}
+
+h3 {
+    font-size: 2.3rem;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 24rem;
+    height: 3.3rem;
+    border-radius: 10vw;
+    font-size: 1rem;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.btn-signup-google {
+    background: gray;
+    color: black;
+    font-weight: 400;
+    margin: 13px;
+    overflow: hidden;
+}
+
+.btn-signup-apple:hover {
+    background: #b51414;
+   
+}
+
+.btn-Signup {
+border: 1px solid #1da1f2;
+color: #1da1f2;
+}
+.btn-Signup{
+    background: #1f94dd;
+    color: #fff;
+}
+
+img{
+    margin: 6px;
+}
+
+
+@media(max-width: 1050px) {
+.text-content {
+    order: -1;
+    max-width: 600px;
+    height: 80vh;
+    margin: 0 auto;
+}
+
+.image {
+    height: 50vh;
+    flex:  0 1 100vw;
+}
+
+.button {
+    display: flex;
+}
+
+.btn {
+    width: 15rem;
+    margin-right: 1rem;
+}
+
+h1 {
+    font-size: 8vw;
+}
+}
+
+@media(max-width: 580px) {
+  .text-content {
+    padding: 2rem;
+    margin: 0;
+  }
+
+  .button {
+    flex-direction: column;
+  }
+
+  .btn {
+    width: 25rem;
+  }
+  h1 {
+    font-size: 10vw;
+  }
+
+  h3 {
+    font-size: 1.7rem;
+  }
+}
+
+.orr{
+    text-align: center;
+    width: auto;
+    margin: 8px;
+}
+.new11{
+    margin-bottom: 20px;
+}
+
+.btn-Signin{
+    background: rgb(84, 106, 83);
+    color: black;
+    font-weight: 400;
+    margin: 13px;
+    overflow: hidden;
+    
+}
+
+.hasy{
+    width: 386px;
+}
