@@ -69,30 +69,40 @@ h3 {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 24rem;
+    /* width: 300px; */
     height: 3.3rem;
     border-radius: 10vw;
     font-size: 1rem;
     text-decoration: none;
     font-weight: 700;
+    border: 1px solid  rgb(207, 217, 222);
+    margin: 16px;
 }
 
 .btn-signup-google {
-    background: gray;
+
     color: black;
     font-weight: 400;
     margin: 13px;
     overflow: hidden;
 }
+/* yeh jab mouse le ke jau gye button pay tb show ho ga  */
+.btn-signup-google:hover{
+ background-color: rgb(207, 217, 222);
+}
 
 .btn-signup-apple:hover {
-    background: #b51414;
+  background-color: rgb(207, 217, 222);
    
 }
+/* 
+adding the or  */
+
 
 .btn-Signup {
 border: 1px solid #1da1f2;
 color: #1da1f2;
+border:1px solid rgb(207, 217, 222);
 }
 .btn-Signup{
     background: #1f94dd;
@@ -158,19 +168,150 @@ h1 {
     width: auto;
     margin: 8px;
 }
+
+.boorder {
+  background-color: rgb(239, 243, 244);
+  height: 2px;
+
+  user-select: auto;
+  flex-basis: 0px;
+  min-width: 0px;
+  flex-direction: row;
+
+  
+
+}
+
+.lineLeft{
+  margin-left: 172;
+  margin-right: 171px;
+}
+
+.halfright{
+  margin-left: -4px;
+  margin-right: -4px;
+}
+
+
 .new11{
     margin-bottom: 20px;
 }
 
 .btn-Signin{
-    background: rgb(84, 106, 83);
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(207, 217, 222);
+    
     color: black;
     font-weight: 400;
     margin: 13px;
     overflow: hidden;
+    transition: background-color;
     
+}
+
+.btn-Signin:hover{
+  background-color: rgb(207, 217, 222);
+
 }
 
 .hasy{
     width: 386px;
+}
+
+
+
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+
+
+  /* Add padding to containers */
+  .container {
+    padding: 16px;
+    background-color: white;
+  }
+  
+  /* Full-width input fields */
+  input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+  }
+  
+  input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  /* Overwrite default styles of hr */
+  hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+  }
+  
+  /* Set a style for the submit button */
+  .registerbtn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+  }
+  
+  .registerbtn:hover {
+    opacity: 1;
+  }
+  
+  /* Add a blue text color to links */
+  a {
+    color: dodgerblue;
+  }
+  
+  /* Set a grey background color and center the text of the "sign in" section */
+  .signin {
+    background-color: #f1f1f1;
+    text-align: center;
+  }
+
+
+/* The Close Button */
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  /* .modal{
+    display: none;
+  } */
+#myModal{
+  display: none;
+}
+.accountBnao{
+  margin-top: 48px;
+}
+
+
+
+
+
+
+a.btn.btn-Signup:hover {
+  background-color: #1759a8;
 }
